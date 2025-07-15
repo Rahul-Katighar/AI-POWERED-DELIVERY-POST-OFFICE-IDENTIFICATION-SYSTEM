@@ -1,10 +1,10 @@
-##📮 AI-Powered Delivery Post Office Identification System
+## 📮 AI-Powered Delivery Post Office Identification System
 📌 Project Overview
 This project leverages Artificial Intelligence (AI) and Machine Learning (ML) to resolve one of the most common challenges faced in postal logistics: the incorrect or incomplete specification of addresses and PIN codes. India’s vast and dynamically evolving postal network, with over 165,000 post offices and nearly 19,000 PIN codes, often suffers from misrouting, delivery delays, and human errors.
 
 This intelligent system automates the identification of the correct Delivery Post Office based on user-input addresses, even when the PIN code is missing, invalid, or mismatched. It also integrates with internal operational changes like merged or reassigned PIN codes, providing a highly reliable, scalable, and efficient solution.
 
-##🎯 Key Features
+## 🎯 Key Features
 🔍 AI-Based Address Parsing
 Automatically extracts city, district, locality, and landmarks from unstructured address input using NLP techniques.
 
@@ -21,7 +21,7 @@ Suggests the best route or delivery center for dispatch using geographic mapping
 Interactive and intuitive web interface for users to input addresses and get predictions/validation results instantly.
 
 
-##🧠 AI & ML Techniques Used
+## 🧠 AI & ML Techniques Used
 Natural Language Processing (NLP) for address parsing
 
 Decision Trees / Random Forests / XGBoost for PIN prediction
@@ -32,7 +32,7 @@ Confidence score estimation based on model probability
 
 (Optional) Integration with geolocation libraries for route visualization
 
-##🛠️ Technologies Used
+## 🛠️ Technologies Used
 Technology	Description
 🐍 Python	Core language for backend logic and ML
 📘 Pandas	For data processing and CSV operations
@@ -40,9 +40,8 @@ Technology	Description
 🌐 Streamlit	User-friendly web interface
 🗺️ QGIS / GeoPy (optional)	For route mapping and geospatial calculations
 
-##🚀 How to Run the Project
+## 🚀 How to Run the Project
 Clone the Repository
-
 
 git clone https://github.com/yourusername/ai-postoffice-pincode-identification.git
 cd ai-postoffice-pincode-identification
